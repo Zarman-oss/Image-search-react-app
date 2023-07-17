@@ -122,5 +122,5 @@ If you have any questions or suggestions regarding this project, please feel fre
 
 ---
 
-Thank you for your interest in the React Unsplash API App. Happy coding!
+Thank you for your interest in the Image Search App. Happy coding!
 
