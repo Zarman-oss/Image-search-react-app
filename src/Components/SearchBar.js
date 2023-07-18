@@ -17,6 +17,6 @@ function SearchBar({ onSubmit }) {
         <input value={state} onChange={handleChange} />
       </form>
     </div>
-  );    
+  );
 }
 export default SearchBar;
