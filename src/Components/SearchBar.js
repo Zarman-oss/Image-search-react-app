@@ -1,22 +1,22 @@
 import { useState } from 'react';
 
 function SearchBar({ onSubmit }) {
-  const [item, setItem] = useState('');
+  const [state, setState] = useState('');
   const handleFormSubmit = (e) => {
     e.preventDefault();
-    onSubmit('grg');
+    onSubmit(state);
   };
 
   const handleChange = (e) => {
-    setItem(e.target.value);
+    setState(e.target.value);
   };
 
   return (
     <div>
       <form onSubmit={handleFormSubmit}>
-        <input value={item} onChange={handleChange} />
+        <input value={state} onChange={handleChange} />
       </form>
     </div>
-  );
+  );    
 }
 export default SearchBar;
