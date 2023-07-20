@@ -1,3 +1,4 @@
+/* CSS for Serach bar in image-show branch */
 .search-bar {
   border: 1px solid lightgray;
   border-radius: 5px;
@@ -7,5 +8,4 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  
 }
